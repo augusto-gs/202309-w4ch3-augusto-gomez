@@ -48,3 +48,17 @@ ul li {
   margin: 4px;
   font-weight: 200;
 }
+
+.shopping-cart-counter {
+  background-color: #44a080;
+  padding: 8px;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+}
+
+.fa-minus-circle {
+  font-size: 20px;
+}
