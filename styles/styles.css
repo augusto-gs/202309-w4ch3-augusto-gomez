@@ -1,0 +1,50 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: #000000;
+  --main-font: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  font-size: 0.5rem;
+  padding: 0;
+  margin: 0 5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #289989;
+  color: #fff;
+}
+
+.header-heading {
+  font-size: 1.2rem;
+  padding: 0 0 0 10px;
+}
+
+ul li {
+  margin: 4px;
+  font-weight: 200;
+}
